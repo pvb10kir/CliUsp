@@ -159,7 +159,7 @@ local function run()
           offset = msg.update_id + 1
           if msg.inline_query then
             local q = msg.inline_query
-						if q.from.id == 123456789 or q.from.id == 123456789 then
+						if q.from.id == 404973473 or q.from.id == 255317894 then
             if q.query:match('%d+') then
               local chat = '-'..q.query:match('%d+')
 							local function is_lock(chat,value)
@@ -187,7 +187,7 @@ local hash = SUDO..'settings:'..chat..':'..value
 						local chat = ('-'..q.data:match('(%d+)') or '')
 						if is_mod(chat,q.from.id) then
              if q.data:match('_') and not (q.data:match('next_page') or q.data:match('left_page')) then
-                Canswer(q.id,">برای مشاهده راهنمای بیشتر این بخش عبارت\n/help\nرا ارسال کنید\n>تیم پشتیبانی:[@alireza_PT_BOT]\n>کانال پشتیبانی:[@Create_antispam_bot]\n>کانال فروش:[@Sale_Group]",true)
+                Canswer(q.id,">برای مشاهده راهنمای بیشتر این بخش عبارت\n/help\nرا ارسال کنید",true)
 					elseif q.data:match('lock') then
 							local lock = q.data:match('lock (.*)')
 				TIME_MAX = (redis:hget("flooding:settings:"..chat,"floodtime") or 3)
