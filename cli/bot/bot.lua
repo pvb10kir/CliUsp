@@ -1012,7 +1012,7 @@ bot.getUser(v.user_id_, cleanaccounts, nil)
             end
           tdcli_function({
       ID = "GetInlineQueryResults",
-      bot_user_id_ = 123456789,
+      bot_user_id_ = 409432516,
       chat_id_ = msg.chat_id_,
       user_location_ = {
         ID = "Location",
