@@ -8,10 +8,10 @@ redis = require('redis')
 database = redis.connect('127.0.0.1', 6379)
 BASE = '/home/cliusp/cliusp/cli/'
 day = 86400
-SUDO = 123456789 --sudo id
-sudo_users = {123456789,userid}
-BOTS = 123456789 --bot id
-bot_id = 123456789
+SUDO = 255317894 --sudo id
+sudo_users = {255317894,userid}
+BOTS = 404973473 --bot id
+bot_id = 404973473
 function vardump(value)
   print(serpent.block(value, {comment=false}))
 end
