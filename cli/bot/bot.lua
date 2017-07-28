@@ -39,7 +39,7 @@ end
   return var
 end
 function is_bot(msg)
-  if tonumber(BOTS) == 123456789 then
+  if tonumber(BOTS) == 404973473 then
     return true
     else
     return false
